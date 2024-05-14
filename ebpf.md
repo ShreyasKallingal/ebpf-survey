@@ -81,23 +81,43 @@ eBPF verification is loaded with edge cases to consider—but declarative approa
 
 ## Further Reading (Yes, everything I have cited is interesting!)
 
-[^1]	“What is eBPF? An Introduction and Deep Dive into the eBPF Technology.” Accessed: Apr. 21, 2024. [Online]. Available: https://ebpf.io/what-is-ebpf/
-[^2]	“eBPF Instruction Set — The Linux Kernel documentation.” Accessed: Apr. 20, 2024. [Online]. Available: https://www.kernel.org/doc/html/v5.17/bpf/instruction-set.html
-[^3]	“eBPF verifier — The Linux Kernel documentation.” Accessed: Apr. 20, 2024. [Online]. Available: https://docs.kernel.org/bpf/verifier.html
-[^4]	More than you want to know about BPF verifier, (Oct. 24, 2022). Accessed: Apr. 20, 2024. [Online Video]. Available: https://www.youtube.com/watch?v=T4QAWIHb9ZU
-[^5]	“Bounded loops in BPF for the 5.3 kernel [LWN.net].” Accessed: Apr. 20, 2024. [Online]. Available: https://lwn.net/Articles/794934/
-[^6]	“A different approach to BPF loops [LWN.net].” Accessed: Apr. 20, 2024. [Online]. Available: https://lwn.net/Articles/877062/
-[^7]	“Abstract Interpretation - MozillaWiki.” Accessed: Apr. 20, 2024. [Online]. Available: https://wiki.mozilla.org/Abstract_Interpretation
-[^8]	V. Kuncak, “Lecture 20   Fixed Point Theorems   Abstract Interpretation Framework   Predicate Abstraction”.
-[^9]	F. Nielson, H. R. Nielson, and C. Hankin, Principles of Program Analysis. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999. doi: 10.1007/978-3-662-03811-6.
-[^10]	E. Gershuni et al., “Simple and precise static analysis of untrusted Linux kernel extensions,” in Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation, Phoenix AZ USA: ACM, Jun. 2019, pp. 1069–1084. doi: 10.1145/3314221.3314590.
-[^11]	“microsoft/ebpf-for-windows.” Microsoft, May 13, 2024. Accessed: Apr. 21, 2024. [Online]. Available: https://github.com/microsoft/ebpf-for-windows
-[^12]	A. Gurfinkel and J. A. Navas, “Abstract Interpretation of LLVM with a Region-Based Memory Model,” in Software Verification, R. Bloem, R. Dimitrova, C. Fan, and N. Sharygina, Eds., Cham: Springer International Publishing, 2022, pp. 122–144. doi: 10.1007/978-3-030-95561-8_8.
-[^13]	“Merge Crab into PREVAIL by elazarg · Pull Request #87 · vbpf/ebpf-verifier,” GitHub. Accessed: May 14, 2024. [Online]. Available: https://github.com/vbpf/ebpf-verifier/pull/87
-[^14]	“uw-unsat/exoverifier.” uw-unsat, Apr. 13, 2024. Accessed: Apr. 21, 2024. [Online]. Available: https://github.com/uw-unsat/exoverifier
-[^15]	“Security - WebAssembly.” Accessed: Apr. 21, 2024. [Online]. Available: https://webassembly.org/docs/security/
-[^16]	“Conventions — WebAssembly 2.0 (Draft 2024-04-28).” Accessed: May 14, 2024. [Online]. Available: https://webassembly.github.io/spec/core/valid/conventions.html
-[^17]	D. Lehmann, J. Kinder, and M. Pradel, “Everything Old is New Again: Binary Security of {WebAssembly},” presented at the 29th USENIX Security Symposium (USENIX Security 20), 2020, pp. 217–234. Accessed: Apr. 25, 2024. [Online]. Available: https://www.usenix.org/conference/usenixsecurity20/presentation/lehmann
-[^18]	K. Brandl, S. Erdweg, S. Keidel, and N. Hansen, “Modular Abstract Definitional Interpreters for WebAssembly,” in DROPS-IDN/v2/document/10.4230/LIPIcs.ECOOP.2023.5, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2023. doi: 10.4230/LIPIcs.ECOOP.2023.5.
-[^19]	D. Darais, N. Labich, P. C. Nguyen, and D. Van Horn, “Abstracting definitional interpreters (functional pearl),” Proc. ACM Program. Lang., vol. 1, no. ICFP, p. 12:1-12:25, Aug. 2017, doi: 10.1145/3110256.
-[^20]	S. Keidel, S. Erdweg, and T. Hombücher, “Combinator-Based Fixpoint Algorithms for Big-Step Abstract Interpreters,” Proc. ACM Program. Lang., vol. 7, no. ICFP, pp. 955–981, Aug. 2023, doi: 10.1145/3607863.
+[^1]:	“What is eBPF? An Introduction and Deep Dive into the eBPF Technology.” Accessed: Apr. 21, 2024. [Online]. Available: https://ebpf.io/what-is-ebpf/
+
+[^2]:	“eBPF Instruction Set — The Linux Kernel documentation.” Accessed: Apr. 20, 2024. [Online]. Available: https://www.kernel.org/doc/html/v5.17/bpf/instruction-set.html
+
+[^3]:	“eBPF verifier — The Linux Kernel documentation.” Accessed: Apr. 20, 2024. [Online]. Available: https://docs.kernel.org/bpf/verifier.html
+
+[^4]:	More than you want to know about BPF verifier, (Oct. 24, 2022). Accessed: Apr. 20, 2024. [Online Video]. Available: https://www.youtube.com/watch?v=T4QAWIHb9ZU
+
+[^5]:	“Bounded loops in BPF for the 5.3 kernel [LWN.net].” Accessed: Apr. 20, 2024. [Online]. Available: https://lwn.net/Articles/794934/
+
+[^6]:	“A different approach to BPF loops [LWN.net].” Accessed: Apr. 20, 2024. [Online]. Available: https://lwn.net/Articles/877062/
+
+[^7]:	“Abstract Interpretation - MozillaWiki.” Accessed: Apr. 20, 2024. [Online]. Available: https://wiki.mozilla.org/Abstract_Interpretation
+
+[^8]:	V. Kuncak, “Lecture 20   Fixed Point Theorems   Abstract Interpretation Framework   Predicate Abstraction”.
+
+[^9]:	F. Nielson, H. R. Nielson, and C. Hankin, Principles of Program Analysis. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999. doi: 10.1007/978-3-662-03811-6.
+
+[^10]:	E. Gershuni et al., “Simple and precise static analysis of untrusted Linux kernel extensions,” in Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation, Phoenix AZ USA: ACM, Jun. 2019, pp. 1069–1084. doi: 10.1145/3314221.3314590.
+
+[^11]:	“microsoft/ebpf-for-windows.” Microsoft, May 13, 2024. Accessed: Apr. 21, 2024. [Online]. Available: https://github.com/microsoft/ebpf-for-windows
+
+[^12]:	A. Gurfinkel and J. A. Navas, “Abstract Interpretation of LLVM with a Region-Based Memory Model,” in Software Verification, R. Bloem, R. Dimitrova, C. Fan, and N. Sharygina, Eds., Cham: Springer International Publishing, 2022, pp. 122–144. doi: 10.1007/978-3-030-95561-8_8.
+
+[^13]:	“Merge Crab into PREVAIL by elazarg · Pull Request #87 · vbpf/ebpf-verifier,” GitHub. Accessed: May 14, 2024. [Online]. Available: https://github.com/vbpf/ebpf-verifier/pull/87
+
+[^14]:	“uw-unsat/exoverifier.” uw-unsat, Apr. 13, 2024. Accessed: Apr. 21, 2024. [Online]. Available: https://github.com/uw-unsat/exoverifier
+
+[^15]:	“Security - WebAssembly.” Accessed: Apr. 21, 2024. [Online]. Available: https://webassembly.org/docs/security/
+
+[^16]:	“Conventions — WebAssembly 2.0 (Draft 2024-04-28).” Accessed: May 14, 2024. [Online]. Available: https://webassembly.github.io/spec/core/valid/conventions.html
+
+[^17]:	D. Lehmann, J. Kinder, and M. Pradel, “Everything Old is New Again: Binary Security of {WebAssembly},” presented at the 29th USENIX Security Symposium (USENIX Security 20), 2020, pp. 217–234. Accessed: Apr. 25, 2024. [Online]. Available: https://www.usenix.org/conference/usenixsecurity20/presentation/lehmann
+
+[^18]:	K. Brandl, S. Erdweg, S. Keidel, and N. Hansen, “Modular Abstract Definitional Interpreters for WebAssembly,” in DROPS-IDN/v2/document/10.4230/LIPIcs.ECOOP.2023.5, Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2023. doi: 10.4230/LIPIcs.ECOOP.2023.5.
+
+[^19]:	D. Darais, N. Labich, P. C. Nguyen, and D. Van Horn, “Abstracting definitional interpreters (functional pearl),” Proc. ACM Program. Lang., vol. 1, no. ICFP, p. 12:1-12:25, Aug. 2017, doi: 10.1145/3110256.
+
+[^20]:	S. Keidel, S. Erdweg, and T. Hombücher, “Combinator-Based Fixpoint Algorithms for Big-Step Abstract Interpreters,” Proc. ACM Program. Lang., vol. 7, no. ICFP, pp. 955–981, Aug. 2023, doi: 10.1145/3607863.
+
